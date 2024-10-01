@@ -3,6 +3,9 @@
         <mj-title>Test letter</mj-title>
         <mj-preview>Test letter</mj-preview>
         <mj-style>
+            body {
+                background-color="#353535";
+            }
             h1 {
                 all: inherit;
             }
@@ -45,7 +48,7 @@
             }
         </mj-style>
     </mj-head>
-    <mj-body width="640px">
+    <mj-body width="640px" class="body">
         <mj-section background-color="#313131" padding="0">
         <mj-column>
             <mj-image width="24px" align="center" padding="24px" src="https://i.ibb.co/Jp8Vhfq/Apple-logo-black.png"/>
