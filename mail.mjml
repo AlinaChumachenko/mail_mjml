@@ -4,7 +4,7 @@
         <mj-preview>Test letter</mj-preview>
         <mj-style>
             body {
-                background-color: #3d1e1e;
+                background-color: #3d1d1e
             }
             h1 {
                 all: inherit;
