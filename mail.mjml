@@ -46,15 +46,12 @@
         </mj-style>
     </mj-head>
     <mj-body width="640px">
-
         <mj-section background-color="#313131" padding="0">
         <mj-column>
             <mj-image width="24px" align="center" padding="24px" src="https://i.ibb.co/Jp8Vhfq/Apple-logo-black.png"/>
         </mj-column>
         </mj-section>
-
         <mj-wrapper background-color="#141414" padding="50px 30px">  
-
         <mj-section padding="0">
         <mj-column>
             <mj-text color="#ffffff" font-size="40px" font-family="Verdana" line-height="49px" font-weight="bold" align="center">
@@ -67,14 +64,11 @@
             </mj-button>
         </mj-column>
         </mj-section>
-
         <mj-section padding="0">
         <mj-column>
-            <mj-image align="center" src="https://i.ibb.co/YX6fKW7/here.png"/>
+            <mj-image align="center" src="https://i.ibb.co/GMKZxR6/Imac.png"/>
         </mj-column>
         </mj-section>
-
-        
         <mj-section padding="0">
         <mj-column>
             <mj-text>
@@ -101,9 +95,7 @@
             <mj-image align="left" src="https://i.ibb.co/YpmTcDc/rectangle.png"/>
         </mj-column>
         </mj-section>
-
         </mj-wrapper>
-
         <mj-section background-color="#313131" padding="48px 20px 20px">
         <mj-group width="200px">
             <mj-column>
@@ -126,7 +118,6 @@
             </mj-column>
         </mj-group>
         </mj-section>
-
         <mj-section background-color="#313131" padding="0 40px 20px">
         <mj-column>
             <mj-text color="#7d7d7d" font-size="10px" font-family="Verdana" line-height="18px" font-weight="normal" align="center">
@@ -138,6 +129,5 @@
             </mj-text>
         </mj-column>
         </mj-section>
-
     </mj-body>    
 </mjml>
