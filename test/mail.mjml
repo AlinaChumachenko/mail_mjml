@@ -2,40 +2,33 @@
     <mj-head>
         <mj-title>Test letter</mj-title>
         <mj-preview>Test letter</mj-preview>
-        <mj-style>
+        <mj-style inline="inline">
             body {
                 background-color: #3d1d1e
             }
             h1 {
                 all: inherit;
             }
-            .up {
-                font-family:"Verdana";
-                font-weight:normal;
-                font-size:14px;
-                line-height:12px;
-
-                color: #ffffff;
-
-                margin-bottom:5px;
+            .up div {
+                font-family:"Verdana" !important;
+                font-weight:normal !important;
+                font-size:14px !important;
+                line-height:12px !important;
+                color: #ffffff !important;
             }
-            .value {
-                font-family:"Verdana";
-                font-weight:bold;
-                font-size:30px;
-                line-height:36px;
-
-                color: #ffffff;
-
-                margin-bottom:10px;
+            .value div {
+                font-family:"Verdana" !important;
+                font-weight:bold !important;
+                font-size:30px !important;
+                line-height:36px !important;
+                color: #ffffff !important;
             }
-            .advantages {
-                font-family:"Verdana";
-                font-weight:bold;
-                font-size:10px;
-                line-height:12px;
-
-                color: #ffffff;
+            .advantages div {
+                font-family:"Verdana" !important;
+                font-weight:bold !important;
+                font-size:10px !important;
+                line-height:12px !important;
+                color: #ffffff !important;
             }
             .social a {
                 padding:0;
@@ -45,6 +38,12 @@
                 font-size:10px;
                 line-height:12px;
                 color:#51ACFF;
+            }
+            @media (max-width: 600px) {
+            .title h1 {
+                font-size: 29px !important;
+                line-height: 40px !important;
+            }
             }
         </mj-style>
     </mj-head>
@@ -57,8 +56,8 @@
         <mj-wrapper background-color="#141414" padding="50px 30px">  
         <mj-section padding="0">
         <mj-column>
-            <mj-text color="#ffffff" font-size="40px" font-family="Verdana" line-height="49px" font-weight="bold" align="center">
-                <h1>Our most stunning take on post-production.<h1>
+            <mj-text color="#ffffff" css-class="title" font-size="40px" font-family="Verdana" line-height="49px" font-weight="bold" align="center">
+                Our most stunning take on post-production.
             </mj-text>
             <mj-button css-class="link" font-family="Verdana" font-weight="bold" color="#51ACFF" line-height="18px" font-size="15px" background-color="transparent" 
             href="https://github.com/AlinaChumachenko">
@@ -72,31 +71,27 @@
             <mj-image align="center" src="https://i.ibb.co/GMKZxR6/Imac.png"/>
         </mj-column>
         </mj-section>
-        <mj-section padding="0">
+        <mj-section padding="0" css-class="item">
+        <mj-group>
         <mj-column>
-            <mj-text>
-            <div class="up">up to</div>
-            <div class="value">3.2x</div>
-            <div class="advantages">faster render</div>
-            </mj-text>
+            <mj-text css-class="up">up to</mj-text>
+            <mj-text css-class="value">3.2x</mj-text>
+            <mj-text css-class="advantages">faster render</mj-text>
             <mj-image align="left" src="https://i.ibb.co/YpmTcDc/rectangle.png"/>
         </mj-column>
         <mj-column>
-            <mj-text>
-            <div class="up">up to</div>
-            <div class="value">8+</div>
-            <div class="advantages">streams of 4k video</div>
-            </mj-text>
+            <mj-text css-class="up">up to</mj-text>
+            <mj-text css-class="value">8+</mj-text>
+            <mj-text css-class="advantages">streams of 4k video</mj-text>
             <mj-image align="left" src="https://i.ibb.co/YpmTcDc/rectangle.png"/>
         </mj-column>
         <mj-column>
-            <mj-text>
-            <div class="up">up to</div>
-            <div class="value">2x</div>
-            <div class="advantages">faster running time</div>
-            </mj-text>
+            <mj-text css-class="up">up to</mj-text>
+            <mj-text css-class="value">2x</mj-text>
+            <mj-text css-class="advantages">faster running time</mj-text>
             <mj-image align="left" src="https://i.ibb.co/YpmTcDc/rectangle.png"/>
         </mj-column>
+        </mj-group>
         </mj-section>
         </mj-wrapper>
         <mj-section background-color="#313131" padding="48px 20px 20px">
